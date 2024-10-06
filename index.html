@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'style.css' />
+    <title>DataBase</title>
+</head>
+<body>
+    <header id = 'header'>
+        <div class = 'name'>Hash DB</div>
+        <div class = 'display'>
+            <button class="button" id = "terminal-style">Terminal</button>
+            <button class="button" id = "window-style">Window</button>
+        </div>
+    </header>
+    <div class = 'line'></div>
+
+    <div class = 'display-info'>
+        <div class = 'message' id = 'command-message'></div>
+        <div class = 'message' id = 'info-message'><h3>$info:</h3>press your command</div>
+    </div>
+
+    <div id = "workspace" class = "workspace">
+        <input type="text" name="text" contenteditable="true" class="textarea" value = 'Press command...' id = 'command' on></textarea>
+    </div>
+
+    <script src = 'database.js'></script>
+    <script src = 'database-command.js'></script>
+</body>
+</html>
